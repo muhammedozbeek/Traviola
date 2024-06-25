@@ -1,0 +1,71 @@
+Anasayfa Keşfet Blog Profil Giriş Kaydol
+
+
+
+CREATE TABLE `information` (
+  `pname` varchar(30) NOT NULL,
+  `pdescription` varchar(10000) NOT NULL,
+  `pi_main` varchar(1000) NOT NULL,
+  `pi1` varchar(1000) NOT NULL,
+  `pi2` varchar(1000) NOT NULL,
+  `pi3` varchar(1000) NOT NULL,
+  `package` int(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+INSERT INTO `information` (`pname`, `pdescription`, `pi_main`, `pi1`, `pi2`, `pi3`, `package`) VALUES
+('Istanbul', 'İstanbul, Avrupa ile Asyayı birleştiren benzersiz coğrafi konumuyla dikkat çeken bir metropol. Tarihi yarımada, Ayasofyanın görkemiyle ziyaretçilerini karşılıyor. Sultanahmet Meydanında bulunan Topkapı Sarayı ve Haremi, Osmanlı İmparatorluğunun ihtişamını günümüze taşıyor. Yerebatan Sarnıcı, 6. yüzyıldan kalma mistik bir atmosfer sunan su deposu olarak ziyaretçilerini büyülüyor. Galata Kulesi, İstiklal Caddesi ve Taksim Meydanı gibi modern İstanbulun sembolleri, şehrin canlı yaşamını yansıtıyor. Boğaz boyunca yapılan tekne turları, Dolmabahçe Sarayı ve Ortaköy Camii gibi göz alıcı yapıları keşfetmek için mükemmel bir fırsat sunuyor. Çamlıca Tepesi, şehrin panoramik manzarasını en iyi şekilde sunan bir nokta olarak öne çıkıyor. Kapalıçarşı ve Mısır Çarşısı, tarihi dokusu ve çeşitli alışveriş seçenekleriyle ziyaretçilere unutulmaz bir deneyim yaşatıyor. İstanbulun her köşesi, tarih ve modernliğin eşsiz bir karışımını sunarak her ziyaretçiyi büyülüyor.', 'images//destination//istanbul1.jpg', 'images//destination//istanbul2.jpg', 'images//destination//istanbul3.jpg', 'images//destination//istanbul4.jpg', 15000),
+
+('Almanya', 'Almanya, Orta Avrupada bulunan zengin tarihi ve kültürel mirasıyla tanınan bir ülke. Başkenti Berlin, modern sanat galerileri, tarihi anıtları ve canlı gece hayatıyla öne çıkıyor. Berlin Duvarının kalıntıları ve Checkpoint Charlie gibi simgesel yerler, şehrin geçmişine ışık tutuyor.Münih, Bavyeranın başkenti olarak bilinir ve Oktoberfest gibi dünyaca ünlü festivaliyle tanınır. Marienplatz Meydanı, Gotik tarzda inşa edilen yeni ve eski belediye binalarıyla dikkat çeker.Köln, Ren Nehri kıyısında yer alır ve Gotik tarzdaki muhteşem Kölner Dom Katedrali ile bilinir. Katedralin tepesine çıkarak şehrin panoramik manzarasını görmek mümkündür. Almanyanın güneyinde yer alan Bavyera, tarihi köyleri, dağları ve gölleriyle doğa tutkunları için cazip bir seçenektir. Almanya, zengin kültürel mirası, doğal güzellikleri ve çeşitli aktiviteleriyle her ziyaretçiye unutulmaz bir deneyim sunar.', 'images//destination//almanya1.jpg', 'images//destination//almanya2.jpg', 'images//destination//almanya3.jpg', 'images//destination//almanya4.jpg', 10000),
+
+('Amerika', 'Amerika, Kuzey Amerika kıtasında geniş bir coğrafyaya yayılan çeşitliliği ve büyüleyici doğasıyla tanınır. Başkent Washington D.C., tarihi anıtları, müzeleri ve Beyaz Saray gibi sembollerle doludur.
+New York City, dünyanın en büyük ve etkileyici metropollerinden biridir. Gökdelenler, sanat galerileri, Broadway tiyatroları ve Central Park gibi ikonik yerler ziyaretçilere farklı deneyimler sunar.
+Kaliforniyanın Los Angeles şehri, Hollywood eğlence endüstrisinin merkezidir ve plajlarıyla ünlüdür. Golden Gate Köprüsüyle tanınan San Francisco ise bohem kültürü ve dik yokuşlarıyla bilinir.
+Floridanın Miami şehri, güneşin ve eğlencenin adresidir; renkli gece hayatı, Art Deco mimarisi ve güzel sahilleriyle ünlüdür.
+Amerikanın batısında Grand Canyon Milli Parkı, muhteşem kanyon manzarası ve doğal güzellikleriyle etkileyicidir. Yellowstone Milli Parkı ise termal kaynakları ve yaban hayatıyla ünlüdür.
+Amerikanın her köşesinde farklı bir kültürel ve doğal zenginlik bulunur, ziyaretçilerine unutulmaz anılar yaşatır.', 'images//destination//amerika1.jpg', 'images//destination//amerika2.jpg', 'images//destination//amerika3.jpg', 'images//destination//amerika4.jpg', 9000),
+
+('Çin', 'Çin, Asyanın en büyük ülkesi ve zengin kültürel mirasıyla tanınır. Başkent Pekin, Yasak Şehir gibi antik anıtları ve Çin Seddi gibi dünya harikalarını barındırır.
+Şanghay, modern gökdelenleri, alışveriş merkezleri ve tarihi Yu Bahçesi gibi yerleriyle ünlüdür. Huangpu Nehrinin kıyısındaki Bund Bölgesi, şehrin simgesi haline gelmiştir.
+Xian, antik başkent olup Terrakota Ordusu ile ünlüdür. Binlerce yıllık tarihine tanıklık eden şehir, eski surları ve Büyük Gansu Pagodası gibi yapılarıyla ziyaretçilerini etkiler.
+Çinin doğal güzellikleri arasında Guilinin kireçtaşı tepeleri ve Yangtze Nehrinin ünlü kanyonu bulunur. Tibetin başkenti Lhasa ise Potala Sarayı ve Tibet Budizminin manevi merkezi olarak bilinir.
+Çinin güneyindeki Hong Kong, modern şehir yaşamı ile geleneksel Çin kültürünün harmanlandığı bir yerdir. Victoria Limanı manzarası ve gökdelenlerle dolu skylineıyla ünlüdür.
+Çinin her şehri, zengin tarihi ve kültürel mirasıyla büyüleyici bir deneyim sunar.', 'images//destination//cin1.jpg', 'images//destination//cin2.jpg', 'images//destination//cin3.jpg', 'images//destination//cin4.jpg', 20000),
+
+('Hindistan', 'Hindistan, Güney Asyada bulunan ve zengin tarihi, kültürel çeşitliliği ile dikkat çeken büyük bir ülke. Başkent Yeni Delhi, modern yaşam tarzıyla eski dünyanın izlerini taşıyan kozmopolit bir şehir. Red Fort (Lal Qila) ve Jama Masjid gibi Mughal döneminden kalma tarihi yapılar, şehrin tarihi ve kültürel mirasını gözler önüne seriyor.
+Agradaki Tac Mahal, Hindistanın en ünlü yapılarından biri olarak bilinir ve dünya mirası listesinde yer alır. Şah Cihanın eşi Mumtaz Mahal için inşa edilen bu büyüleyici yapı, beyaz mermeri ve sanatın zarafetiyle her yıl milyonlarca ziyaretçiyi kendine çekiyor.
+Rajasthan eyaletindeki Jaipur, Hindistanın "Pembe Şehri" olarak bilinir ve kendine özgü pembe renkli binalarıyla tanınır. Şehir, Hawa Mahal (Rüzgar Sarayı) gibi göz alıcı sarayları, Amber Fort gibi muhteşem kalesi ve Jal Mahal gibi su üzerindeki saraylarıyla ünlüdür.Hindistanın her köşesinde, zengin kültürel miras, büyüleyici doğal güzellikler ve tarihi anıtlar ziyaretçilere unutulmaz bir deneyim sunar.', 'images//destination//hindistan1.jpg', 'images//destination//hindistan2.jpg', 'images//destination//hindistan3.jpg', 'images//destination//hindistan4.jpg', 19000),
+
+('Kanada', 'Kanada, Kuzey Amerikanın ikinci büyük ülkesi ve doğal güzellikleriyle ünlü bir destinasyondur. Başkent Ottawa, tarihi yapıları ve Rideau Kanalı gibi UNESCO Dünya Mirası alanlarıyla kültürel bir merkezdir.
+Toronto, Kanadanın en büyük şehri ve CN Kulesi gibi simgesel yapılarıyla bilinir. Ontario Gölü kıyısında bulunan şehir, gökdelenleri, müzeleri ve eğlence mekanlarıyla ziyaretçilerine geniş bir yelpaze sunar.
+Vancouver, Pasifik Okyanusu kıyısında yer alan ve dağlarla çevrili bir şehirdir. Stanley Parkı, Capilano Asma Köprüsü ve Granville Adası gibi doğal ve kültürel cazibe merkezleriyle ünlüdür.
+Kanadanın doğal güzellikleri arasında Rocky Dağları, Banff ve Jasper Ulusal Parkları gibi muhteşem manzaralar yer alır. Yıl boyunca kayak, doğa yürüyüşü ve doğa fotoğrafçılığı için ideal destinasyonlardır. Şelaleler, göz alıcı manzarası ve tekne turlarıyla ziyaretçileri büyüler.
+Kanadanın her şehri ve doğal alanı, zengin kültürel mirası, çeşitliliği ve doğal güzellikleriyle unutulmaz bir seyahat deneyimi sunar.', 'images//destination//kanada1.jpg', 'images//destination//kanada2.jpg', 'images//destination//kanada3.jpg', 'images//destination//kanada4.jpg', 10000),
+
+('Kore', 'Kore, Asyanın Doğu bölgesinde bulunan kültürel ve teknolojik bir merkezdir. Güney Korenin başkenti Seul, modern gökdelenleri, alışveriş merkezleri ve geleneksel tapınaklarıyla dikkat çeker. Gyeongbokgung Sarayı ve Bukchon Hanok Köyü gibi tarihi mekanlar, şehrin zengin kültürel mirasını yansıtır.
+Kuzey Korenin başkenti Pyongyang, ülkenin politik ve kültürel merkezi olarak bilinir. Juche Kulesi, Mansu Hill Anıtı ve Kumsusan Anıt Mezarı gibi simgesel yapılar ziyaretçiler tarafından ilgi görür.
+Güney Korenin Busan şehri, Haeundae Plajı ve Beomeosa Tapınağı gibi önemli turistik noktalarıyla tanınır. Korenin ikinci büyük şehri olan Busan, deniz ürünleriyle ünlü pazarları ve modern limanıyla da bilinir. Korenin her iki tarafı da zengin tarih, kültür ve doğal güzelliklerle doludur. Ziyaretçilere benzersiz bir Asya deneyimi yaşatır ve her yıl milyonlarca turisti kendine çeker.', 'images//destination//kore1.jpg', 'images//destination//kore2.jpg', 'images//destination//kore3.jpg', 'images//destination//kore4.jpg', 5000),
+
+('Özbekistan', 'Özbekistan, Orta Asyanın zengin tarihi ve kültürel mirasıyla öne çıkan bir ülkedir. Başkent Taşkent, modern yapıları ve tarihi anıtlarıyla dikkat çeker. Kukeldash Medresesi ve Amir Timur Meydanı gibi tarihi mekanlar, şehrin tarihini ve sanatını gözler önüne serer.
+Samarkand, İpek Yolunun en önemli duraklarından biridir ve dünya mirası olarak korunan Registan Meydanı ile ünlüdür. Şehir, mavi mozaikli medreseleri ve Shah-i-Zinda Mezarlığı gibi tarihi yapılarıyla büyüleyici bir atmosfere sahiptir.
+Buhara, Orta Asyanın en eski şehirlerinden biridir ve UNESCO Dünya Mirası listesinde yer alan tarihi merkeziyle bilinir. Ark Kalesi, Kalon Camii ve Samani Türbesi gibi yapılar, şehrin zengin kültürel mirasını yansıtır. Özbekistanın doğal güzellikleri arasında Nurata Dağları, Ayaz-Kala ve Toprak Kala gibi antik kaleler bulunur. Ayvacık, Çoraköl ve Charvak gibi gölleri de doğa turizmi için ideal yerlerdir.', 'images//destination//özbekistan1.jpg', 'images//destination//özbekistan2.jpg', 'images//destination//özbekistan3.jpg', 'images//destination//özbekistan4.jpg', 16000),
+
+('Polonya', 'Polonya, Orta Avrupada yer alan zengin tarihi ve kültürel mirasıyla öne çıkan bir ülkedir. Başkent Varşova, tarihi şehir merkezi ve Şehir Sarayı gibi önemli yapılarıyla dikkat çeker. Yeniden inşa edilen Eski Kent ve Lazienki Parkı gibi yeşil alanları ziyaretçilerini büyüler.
+Krakow, Polonyanın kültürel başkenti olarak bilinir ve UNESCO Dünya Mirası listesinde yer alan Wawel Kalesi ve St. Marys Basilica gibi tarihi yapılarıyla ünlüdür. Ayrıca, eski şehir pazarı (Rynek Glówny) ve Yahudi Mahallesi (Kazimierz), ziyaretçilere zengin bir kültürel deneyim sunar.
+Gdansk, Baltık Denizi kıyısında yer alır ve tarihi liman şehri olarak bilinir. Uzun Market ve Dluga Caddesi gibi tarihi sokakları, Gotik tarzdaki Mariacka Kulesi ve Amber Müzesi gibi önemli yerleriyle dikkat çeker. Polonyanın her şehri ve bölgesi, zengin tarihi, çeşitlilik sunan kültürü ve doğal güzellikleriyle ziyaretçilere unutulmaz bir seyahat deneyimi yaşatır.', 'images//destination//polonya1.jpg', 'images//destination//polonya2.jpg', 'images//destination//polonya3.jpg', 'images//destination//polonya4.jpg', 21000),
+
+('Portekiz', 'Portekiz, Güneybatı Avrupada Atlantik Okyanusu kıyısında yer alan tarihi ve doğal güzellikleriyle ünlü bir ülkedir. Başkent Lizbon, renkli sokakları, tarihi yapıları ve Tejo Nehri manzarasıyla büyüleyici bir şehirdir. Belem Kulesi, Jeronimos Manastırı ve São Jorge Kalesi gibi önemli tarihi yapılar ziyaretçileri cezbeder.
+Porto, Portekizin ikinci büyük şehri olup ünlü porto şarabının doğduğu yerdir. Douro Nehri kıyısında yer alan şehir, tarihi binaları, ünlü Luis I Köprüsü ve renkli Ribeira semti ile tanınır.
+Faro, güneydeki Algarve bölgesinin başkenti olup plajları ve tarihi yapılarıyla ünlüdür. Ria Formosa Doğa Parkı, Faro Katedrali ve Arco da Vila gibi yerler, şehrin tarihi ve doğal güzelliklerini keşfetmek isteyenler için idealdir. Portekizin her şehri, zengin tarihi mirası, muhteşem manzaraları ve sıcak misafirperverliği ile ziyaretçilerine unutulmaz bir deneyim sunar.', 'images//destination//portekiz1.jpg', 'images//destination//portekiz2.jpg', 'images//destination//portekiz3.jpg', 'images//destination//portekiz4.jpg', 21200),
+
+('Rusya', 'Rusya, geniş toprakları, zengin tarihi ve kültürel mirasıyla dünyanın en büyük ülkelerinden biridir. Başkent Moskova, Kızıl Meydan, Kremlin Sarayı ve Leninin Mozolesi gibi simgesel yapılarıyla ünlüdür. Moskovanın zengin müze ve sanat galerileri, ziyaretçilere tarihi ve sanatsal bir yolculuk sunar.
+Sankt-Peterburg, Baltık Denizi kıyısında yer alan ve Kanallar Şehri olarak bilinen şehir, Ermitaj Müzesi, Aziz İsaak Katedrali ve Peterhof Sarayı gibi muhteşem yapılarıyla dikkat çeker. Beyaz Geceleri ile ünlü şehir, Nevsky Prospekt ve Mariinsky Tiyatrosu gibi kültürel merkezlerle doludur.
+Rusyanın doğal güzellikleri arasında Baikal Gölü, dünyanın en derin gölü olarak bilinir ve benzersiz doğa harikaları barındırır. Altın Çember olarak bilinen antik şehirler halkası, Suzdal ve Vladimir gibi tarihi şehirleri kapsar ve ziyaretçilere Rusyanın köklü tarihini keşfetme fırsatı verir.  Rusyanın her bölgesi, farklı kültürel zenginlikleri, benzersiz mimarisi ve büyüleyici doğasıyla ziyaretçilerini etkiler ve unutulmaz bir seyahat deneyimi sunar.', 'images//destination//rusya1.jpg', 'images//destination//rusya2.jpg', 'images//destination//rusya3.jpg', 'images//destination//rusya4.jpg', 19000),
+
+('Şanlıurfa', 'Urfa, Türkiyenin Güneydoğu Anadolu Bölgesinde bulunan tarihi ve kültürel zenginlikleriyle öne çıkan bir şehirdir. Şanlıurfa, tarih boyunca çeşitli medeniyetlere ev sahipliği yapmış ve bu medeniyetlerin izlerini günümüze taşımıştır.
+Balıklıgöl, şehrin merkezinde yer alan ve Hz. İbrahimin ateşe atıldığı efsanesiyle ünlü bir kutsal alan olarak kabul edilir. Gölde yaşayan balıkların dokunulmazlığı ve suyunun şifalı olduğuna inanılır.
+Şanlıurfada tarihi yapılar arasında Göbekli Tepe önemli bir yer tutar. Dünyanın bilinen en eski tapınak kompleksi olan Göbekli Tepe, UNESCO Dünya Mirası Listesine dahil edilmiştir ve tarih öncesi insanlık için önemli bir arkeolojik keşiftir. Şehrin kültürel dokusunda yöresel kıyafetler, el sanatları ve yöresel müzikler önemli bir yer tutar. Ayrıca, şehirde düzenlenen etkinlikler ve festivaller de yerel kültürünü ve yaşam tarzını yansıtır.
+Şanlıurfa, tarihi, kültürel ve doğal güzellikleriyle ziyaretçilerine benzersiz bir deneyim sunar.', 'images//destination//urfa1.jpg', 'images//destination//urfa2.jpg', 'images//destination//urfa3.jpg', 'images//destination//urfa1.jpg', 5000),
+
+('İstanbul', 'İstanbul', 'images//destination//istanbul1.jpg', 'images//destination//istanbul2.jpg', 'images//destination//urfa3.jpg', 'images//destination//urfa4.jpg', 0);
